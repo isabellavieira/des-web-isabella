@@ -18,3 +18,11 @@ address{
 hr{ 
     border-color: black;
 }
+div{
+    background-color: bisque;
+    padding: 20px;
+    width: 40%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: initial;
+}
+
