@@ -68,10 +68,7 @@ text-align: center;
     outline: 2px solid #bfd1cb;
 }
 
-.geral {
-    display: flex;
-    align-items:initial;
-}
+
 .container {
     display: flex;
     align-items:initial;
