@@ -1,0 +1,53 @@
+<div class="coluna-inicio">
+    <img src="reunidos.jpg" class="foto-reunidos">
+    <h2>
+        Reuniões dinâmicas
+    </h2>
+    <img src="meeting.jpeg" class="foto-meeting">
+    <h2>
+        Métodos ágeis em empresas
+    </h2>
+    <img src="programacao.png" class="foto-prog">
+    <h2>
+        Desenvolvimento de Software
+    </h2>
+    <img src="computador.jpg" class="foto-comp">
+    <h2>
+        Ciência de dados nos negócios
+    </h2>
+</div>
+
+
+css desse:
+.coluna-inicio{
+padding: 20px;
+width: 25%;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background-color:rgb(112, 176, 178);
+border-radius: 7px;
+flex: 1;
+text-align: center;
+float: right;
+margin-right: 40px;
+
+}
+.foto-reunidos{
+opacity: 80%;
+width: 250px;
+height: 150px;
+}
+.foto-prog{
+opacity: 80%;
+width: 250px;
+height: 150px;
+}
+.foto-meeting{
+opacity: 80%;
+width: 250px;
+height: 150px;
+}
+.foto-comp{
+opacity: 80%;
+width: 250px;
+height: 150px;
+}

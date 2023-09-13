@@ -1,93 +1,119 @@
-body {
- background-color: aliceblue;
-}
-.titulo{
-font-family: Georgia, 'Times New Roman', Times, serif;
-text-align: center;
+.cabecalho {
+    background-color: #000080;
+    /* Azul escuro, você pode ajustar a cor conforme desejado */
+    padding: 20px;
+    /* Espaçamento interno para o conteúdo dentro do cabeçalho */
 }
 
-.introducaocabecalho{
+body {
+    background-color: aliceblue;
+}
+
+.titulo {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+
+.introducaocabecalho {
     font-size: medium;
     text-align: center;
 }
+
 .cabecalho {
-    background-color:aliceblue;
+    background-color: aliceblue;
 }
-.email{
+
+.email {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    forced-color-adjust: #ffbbbb;
     font-style: normal;
     text-align: center;
 }
 
-.linha-preta{ 
+.linha-preta {
     border-color: black;
     margin-bottom: 20px;
     margin-top: 40px;
 }
-.linha-clara{ 
+
+.linha-clara {
     border-color: black;
     margin-bottom: 50px;
     margin-top: 20px;
 }
-.botoes{
+
+.botoes {
     text-align: center;
 }
+
 .botoes a {
     text-align: center;
     display: inline-block;
     margin: 10px;
-    padding: 10px 60px; /* Aumente o padding para tornar os botões maiores */
-    background-color: #2f8383; /* Cor de fundo dos botões */
-    color: #fff; /* Cor do texto dos botões */
+    padding: 10px 60px;
+    /* Aumente o padding para tornar os botões maiores */
+    background-color: #2f8383;
+    /* Cor de fundo dos botões */
+    color: #fff;
+    /* Cor do texto dos botões */
     border-radius: 7px;
     cursor: pointer;
-    font-size: 18px; /* Tamanho da fonte dos botões */
+    font-size: 18px;
+    /* Tamanho da fonte dos botões */
     outline: 2px solid #bfd1cb;
 }
-.foto-trabalho{ 
-    width: 800px;
-    height: 570px;
-    float: left;
-    margin-left: 40px;
-}
 
-.foto-reunidos{
-    opacity: 80%;
-    width: 250px;
-    height: 150px;
-}
-.foto-prog{
-    opacity: 80%;
-    width: 250px;
-    height: 150px;
-}
-.foto-meeting{
-    opacity: 80%;
-    width: 250px;
-    height: 150px;
-}
-.foto-comp{
-    opacity: 80%;
-    width: 250px;
-    height: 150px;
-}
-.coluna-inicio{ 
-    padding: 20px;
-    width: 25%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color:rgb(112, 176, 178);
-    border-radius: 7px;
-    flex: 1;
-    text-align: center;
-    float: right;
-    margin-right: 40px;
+.conteudo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+    grid-template-rows: 10em 10em;
+    display: flex;
+    padding-left: 50px;
 
 }
 
-.embaixo-foto-principal {
-    clear: both;
+.foto-trabalho {
+    width: 550px;
+    height: 400px;
+    margin-left: 20px;
+
+}
+
+.foto-reunidos {
+    width: 550px;
+    height: 400px;
+    margin-left: 20px;
+}
+
+.foto-meeting {
+    width: 550px;
+    height: 400px;
+    margin-left: 20px;
+}
+
+.texto-primeiro-site {
     text-align: left;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 70px;
+    padding: 0px;
+    width: 65%;
+    font-size:larger;
+    margin-bottom: 70px;
 }
+
+.links{
+    padding: 30px;
+    width: 20%;
+    background-color:#2f8383;
+    margin-left: 70px;
+    border-radius: 20px;
+    margin-top: 70px;
+}
+.links a {
+    display: block;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#fff;
+    font-size: 120%;
+}
+

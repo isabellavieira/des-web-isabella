@@ -1,87 +1,106 @@
+.cabecalho {
+    background-color: #000080;
+    /* Azul escuro, você pode ajustar a cor conforme desejado */
+    padding: 20px;
+    /* Espaçamento interno para o conteúdo dentro do cabeçalho */
+}
+
+
 body {
     background-color: aliceblue;
-   }
-   .titulo{
-   font-family: Georgia, 'Times New Roman', Times, serif;
-   text-align: center;
-   }
-   
-   .introducaocabecalho{
-       font-size: medium;
-       text-align: center;
-   }
-   .cabecalho {
-       background-color:aliceblue;
-   }
-   .email{
-       font-family: Verdana, Geneva, Tahoma, sans-serif;
-       forced-color-adjust: #ffbbbb;
-       font-style: normal;
-       text-align: center;
-   }
-   
-   .linha-preta{ 
-       border-color: black;
-       margin-bottom: 20px;
-       margin-top: 40px;
-   }
-   .linha-clara{ 
-       border-color: black;
-       margin-bottom: 50px;
-       margin-top: 20px;
-   }
-   
-   .html-css{
-       background-color:rgb(112, 176, 178);
-       padding: 20px;
-       width: 25%;
-       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-       text-align: initial;
-       border-radius: 7px;
-       flex: 1;
-   }
-   
-   
-   .fotocss{
-       opacity: 80%;
-       width: 200x;
-       height: 150px;
-   }
-   .fotohtml{
-       opacity: 80%;
-       width: 200x;
-       height: 150px;
-   }
-   .botoes{
-       text-align: center;
-   }
-   .botoes a {
-       text-align: center;
-       display: inline-block;
-       margin: 10px;
-       padding: 10px 60px; /* Aumente o padding para tornar os botões maiores */
-       background-color: #2f8383; /* Cor de fundo dos botões */
-       color: #fff; /* Cor do texto dos botões */
-       border-radius: 7px;
-       cursor: pointer;
-       font-size: 18px; /* Tamanho da fonte dos botões */
-       outline: 2px solid #bfd1cb;
-   }
-   
-   
-   .container {
-       display: flex;
-       align-items:initial;
-   }
-   
-   
-   .cachorro {
-       width: 500px;
-       height: 380px;
-       margin-left: 20px;
-   }
-   .gato{
-       width: 500px;
-       height: 380px;
-       margin-left: 20px;
-   }
+}
+
+.titulo {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+
+.introducaocabecalho {
+    font-size: medium;
+    text-align: center;
+}
+
+.cabecalho {
+    background-color: aliceblue;
+}
+
+.email {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    text-align: center;
+}
+
+.linha-preta {
+    border-color: black;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.linha-clara {
+    border-color: black;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.botoes {
+    text-align: center;
+}
+
+.botoes a {
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 60px;
+    /* Aumente o padding para tornar os botões maiores */
+    background-color: #2f8383;
+    /* Cor de fundo dos botões */
+    color: #fff;
+    /* Cor do texto dos botões */
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 18px;
+    /* Tamanho da fonte dos botões */
+    outline: 2px solid #bfd1cb;
+}
+
+.html-css {
+    background-color: rgb(112, 176, 178);
+    padding: 20px;
+    width: 25%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: initial;
+    border-radius: 7px;
+    flex: 1;
+}
+
+
+.fotocss {
+    opacity: 80%;
+    width: 200x;
+    height: 150px;
+}
+
+.fotohtml {
+    opacity: 80%;
+    width: 200x;
+    height: 150px;
+}
+
+.container {
+    display: flex;
+    align-items: initial;
+}
+
+
+.cachorro {
+    width: 500px;
+    height: 380px;
+    margin-left: 20px;
+}
+
+.gato {
+    width: 500px;
+    height: 380px;
+    margin-left: 20px;
+}
