@@ -1,0 +1,101 @@
+/* Estilos CSS */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+nav {
+    background-color: #444;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff9900;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.destination {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.destination img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.destination h2 {
+    font-size: 24px;
+    margin-top: 10px;
+    color: #333;
+}
+
+.destination p {
+    font-size: 16px;
+    color: #666;
+}
+
+.destination a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff9900;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.destination a:hover {
+    background-color: #ff6600;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
