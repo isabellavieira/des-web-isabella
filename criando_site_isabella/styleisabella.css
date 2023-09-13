@@ -30,28 +30,6 @@ text-align: center;
     margin-bottom: 50px;
     margin-top: 20px;
 }
-
-.html-css{
-    background-color:rgb(112, 176, 178);
-    padding: 20px;
-    width: 25%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: initial;
-    border-radius: 7px;
-    flex: 1;
-}
-
-
-.fotocss{
-    opacity: 80%;
-    width: 200x;
-    height: 150px;
-}
-.fotohtml{
-    opacity: 80%;
-    width: 200x;
-    height: 150px;
-}
 .botoes{
     text-align: center;
 }
@@ -67,21 +45,49 @@ text-align: center;
     font-size: 18px; /* Tamanho da fonte dos botões */
     outline: 2px solid #bfd1cb;
 }
-
-
-.container {
-    display: flex;
-    align-items:initial;
+.foto-trabalho{ 
+    width: 800px;
+    height: 570px;
+    float: left;
+    margin-left: 40px;
 }
 
-
-.cachorro {
-    width: 500px;
-    height: 380px;
-    margin-left: 20px;
+.foto-reunidos{
+    opacity: 80%;
+    width: 250px;
+    height: 150px;
 }
-.gato{
-    width: 500px;
-    height: 380px;
-    margin-left: 20px;
+.foto-prog{
+    opacity: 80%;
+    width: 250px;
+    height: 150px;
+}
+.foto-meeting{
+    opacity: 80%;
+    width: 250px;
+    height: 150px;
+}
+.foto-comp{
+    opacity: 80%;
+    width: 250px;
+    height: 150px;
+}
+.coluna-inicio{ 
+    padding: 20px;
+    width: 25%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:rgb(112, 176, 178);
+    border-radius: 7px;
+    flex: 1;
+    text-align: center;
+    float: right;
+    margin-right: 40px;
+
+}
+
+.embaixo-foto-principal {
+    clear: both;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 40px;
 }
