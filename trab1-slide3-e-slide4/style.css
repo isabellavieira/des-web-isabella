@@ -1,0 +1,71 @@
+
+body {
+    font-family: Verdana, sans-serif;
+    background-color: #f0bf97;
+    text-align: center;
+  
+}
+.titulo1 {
+    font-size: 45px;
+    color: #8c175d;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.endereco {
+    margin-left: 20px;
+    text-align: left;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.primeira-div {
+    text-align: center;
+    width: 65%;
+    height: 50%;
+    margin: 0 auto;
+}
+.introducao {
+    font-size: 18px;
+    text-align: center;
+}
+.span1 {
+    color: #c90909ca;
+    background-color: #8bbce4;
+    
+}
+.segunda-div {
+    background-color: #8F5C32;
+    color: #ffe1d6;
+    padding: 10px;
+    text-align: center;
+    width: 50%;
+}
+.span2 {
+    color: #6da4d1;
+}
+
+.usando-p-e-span{
+    color: #dec0d2;
+    text-align: left;
+    font-size: 30px;
+    margin-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;
+
+}
+
+.uleol {
+    margin-left: 20px;
+    text-align: left;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.menu1{
+    margin-left: 5px;
+    text-align: left;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.terceira-div {
+    background-color: #40838F;
+    text-align: center;
+    width: 500px;
+    height: 160px;
+    padding: 5px;
+}
