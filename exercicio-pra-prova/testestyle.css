@@ -1,0 +1,16 @@
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: aliceblue;
+  }
+a:hover {
+    color:rgb(21, 255, 0);
+    background-color: rgb(255, 0, 208);
+  }
+
+#teste-a {
+    padding: 5px;
+    margin: 5px;
+    border: 5px;
+    background-color: brown;
+    display: flex;
+  }
