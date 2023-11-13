@@ -2,9 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sua Página Inicial</title>
     <link rel="stylesheet" href="style.css">
+    <script src="md5.js"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
@@ -12,13 +15,19 @@
         <img src="logobotafogo.png" alt="Logo Botafogo">
     </header>
     <section>
+        <div id="formulario">
         <h2>Digite sua senha para entrar</h2>
-        <input id="campo-senha" type="password" placeholder="Senha">
-        <button id="botao-entrar">Entrar</button>
-        <p>SENHA: ola</p>
+        <input id="campo-senha" type="text" placeholder="Senha">
+        <button onclick=verificaSenha()>Entrar</button>
+        <p>SENHA: 1234</p>
         <p id="mensagem"></p>
+    </div>
+        <div id="secreta" style="display: none;">
+            <h1>Segredo</h1>
+            <button onclick="limpaCoiso()">Sair</button>
+        </div>
     </section>
-    <!-- Importa o arquivo JavaScript -->
-    <script src="script.js"></script>
+
+
 </body>
 </html>

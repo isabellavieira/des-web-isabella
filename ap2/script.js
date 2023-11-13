@@ -1,22 +1,25 @@
-// Função para calcular o hash MD5
-function calcularMD5(senha) {
-    // Use a biblioteca CryptoJS para calcular o hash MD5
-    return CryptoJS.MD5(senha).toString();
+if (localStorage.getItem('coiso')){
+    document.getElementById('secreta').style.display = 'block';
+    document.getElementById('formulario').style.display = 'none';
+} else {
+    document.getElementById('secreta').style.display = 'none';
+    document.getElementById('formulario').style.display = 'block';
 }
 
-// Função para verificar a senha
-function verificarSenha() {
-    var senhaDigitada = document.getElementById("campo-senha").value;
-    var senhaCorreta = "5d41402abc4b2a76b9719d911017c592"; // Hash MD5 da senha "ola"
 
-    var hashSenhaDigitada = calcularMD5(senhaDigitada);
+const verificaSenha = () => {
+    const entrada = document.getElementById("campo-senha").value;
+    const senha = '81dc9bdb52d04dc20036dbd8313ed055';
 
-    if (hashSenhaDigitada === senhaCorreta) {
-        document.getElementById("senha-correta").innerText = "Senha correta!";
+    if (hex_md5(entrada) === senha){
+        localStorage.setItem('coiso', 'qualquer valor');
+        window.location = 'home.html'; 
     } else {
-        document.getElementById("senha-correta").innerText = "Senha incorreta!";
+        alert('Senha incorreta!');
     }
 }
 
-// Adiciona um evento de clique ao botão
-document.getElementById("botao-entrar").addEventListener("click", verificarSenha);
+const limpaCoiso = () => {
+    localStorage.removeItem('coiso');
+    window.location = '/';
+}
