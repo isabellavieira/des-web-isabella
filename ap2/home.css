@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #b4b3b3;
+    display: flex;
     align-items: center;
 }
 
@@ -19,14 +20,21 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    max-width: 450px;
-    margin: 20px auto;
+    max-width: 500px;
+    margin: 20px auto;display: flex;
+    max-width: 440px; /* Largura máxima do grid */
     padding: 20px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     border-radius: 11px;
+    gap: 40px;
 }
-
+#jogadores-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Quatro colunas com largura igual */
+    gap: 20px; /* Espaço entre os elementos */    
+    margin: 20px auto;
+}
 .botoes-jog {
     margin-bottom: 15px;
     padding: 15px;
@@ -36,7 +44,6 @@ section {
     border-radius: 10px;
     cursor: pointer;
     transition: background-color 0.3s;
-    margin: 15px;
 }
 
 .botoes-jog:hover {
@@ -45,14 +52,26 @@ section {
 }
 
 article {
-    flex: 0 0 calc(25% - 30px);
-    background-color: gray;
     text-align: center;
     border-radius: 10px;
-    border: 1px; /* Adição para tornar as bordas mais finas */
-    margin: 15px;
+    border: 1px solid #ccc; /* Adição para tornar as bordas mais finas */
+    margin: 1px;
 }
+
 #container {
     flex-direction: column;
     width: 100%;
+}
+
+#carregando {
+    color: white;
+    text-shadow: #333;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 2%;
+    position: fixed;
+    top: 32%; /* Ajuste o valor conforme necessário */
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

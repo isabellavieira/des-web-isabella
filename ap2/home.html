@@ -15,12 +15,12 @@
                 <h1>Ver Jogadores</h1>
             </header>
             <section>
-                <button class="botoes-jog">MASCULINO</button>
-                <button class="botoes-jog">FEMININO</button>
-                <button class="botoes-jog">VER TODOS</button>
+                <button class="botoes-jog" onclick="filtrarJogadores('MASCULINO')">MASCULINO</button>
+                <button class="botoes-jog" onclick="filtrarJogadores('FEMININO')">FEMININO</button>
+                <button class="botoes-jog" onclick="filtrarJogadores('TODOS')">VER TODOS</button>
             </section>
         </div>
-        
-
+        <div id="carregando" style="display: none;">Carregando...</div>
+        <div id="jogadores-container"></div>
     </body>
     </html>
