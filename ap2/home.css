@@ -51,27 +51,58 @@ section {
     transition: background-color 0.3s;
 }
 
-article {
-    text-align: center;
-    border-radius: 10px;
-    border: 1px solid #ccc; /* Adição para tornar as bordas mais finas */
-    margin: 1px;
-}
-
 #container {
     flex-direction: column;
     width: 100%;
 }
 
 #carregando {
-    color: white;
+    color: rgb(0, 0, 0);
     text-shadow: #333;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     padding: 2%;
     position: fixed;
-    top: 32%; /* Ajuste o valor conforme necessário */
+    top: 47%; /* Ajuste o valor conforme necessário */
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+#btnSair {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 10px; /* Borda arredondada */
+    cursor: pointer;
+    padding: 8px 12px; /* Adiciona algum preenchimento para melhor aparência */
+    margin-right: 20px; /* Margem à direita para afastar do lado direito */
+    background-color: #ccc; /* Cor de fundo */
+    border: 1px solid #999; /* Borda sólida */
+}
+
+article {
+    width: 15em;
+    background-color: rgb(227, 227, 227);
+    margin: auto;
+    cursor: pointer;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s;
+    text-align: center;
+    border: 3px solid #ccc; /* Adição para tornar as bordas mais finas */
+    margin: 1px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+article:hover {
+    transform: scale(1.05);
+}
+
+article h3 {
+    margin-bottom: 10px;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
 }
